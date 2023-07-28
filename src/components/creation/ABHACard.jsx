@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import './creation.scss';
 import Spinner from "../spinner/spinner";
 import {getCard} from "../../api/hipServiceApi";
-import {GoVerified} from "react-icons/all";
+import {GoVerified} from "react-icons/go";
 
 
 const ABHACard = (props) => {

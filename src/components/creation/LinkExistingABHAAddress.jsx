@@ -4,7 +4,7 @@ import VerifyOTP from "./verifyOtp";
 import Spinner from "../spinner/spinner";
 import {getAuthMethods, linkORUnlinkABHAAddress, transaction, verifyOtpInput} from "../../api/hipServiceApi";
 import PatientDetails from "../patient-details/patientDetails";
-import {GoVerified} from "react-icons/all";
+import {GoVerified} from "react-icons/go";
 import Footer from "./Footer";
 
 const LinkExistingABHAAddress = (props) => {

@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import './patientDetails.scss';
-import {AiFillWarning} from "react-icons/all";
+import {AiFillWarning} from "react-icons/ai";
 import PatientInfo from "./patientInfo";
 
 const ConfirmPopup = (props) => {

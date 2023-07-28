@@ -3,7 +3,7 @@ import './creation.scss';
 import VerifyOTP from "./verifyOtp";
 import Spinner from "../spinner/spinner";
 import {createABHA, generateMobileOtp, verifyMobileOtp} from "../../api/hipServiceApi";
-import {GoVerified} from "react-icons/all";
+import {GoVerified} from "react-icons/go";
 import Footer from "./Footer";
 import LinkABHAAddress from "./LinkABHAAddress";
 

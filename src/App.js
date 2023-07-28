@@ -13,11 +13,14 @@ function App() {
     new URLSearchParams(window.location.search)
   );
 
-  useEffect(async ()=>{
+  useEffect(() => {
+    const fetchData = async () => {
       const response = await fetchGlobalProperty(cmSuffixProperty)
       if(response.Error === undefined ){
          localStorage.setItem(cmSuffixProperty, response)
       }
+    }
+    fetchData();
   },[])
 
   switch (params['action']) {
